@@ -1,0 +1,26 @@
+# /etc/conf.d/bitsliverd: config file for /etc/init.d/bitsliverd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitsliver/bitsliver.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bitsliverd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitsliverd.pid"
+
+# Where to write bitsliverd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitsliverd"
+
+# User and group to own bitsliverd process
+#BITCOIND_USER="bitsliver"
+#BITCOIND_GROUP="bitsliver"
+
+# Path to bitsliverd executable
+#BITCOIND_BIN="/usr/bin/bitsliverd"
+
+# Nice value to run bitsliverd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

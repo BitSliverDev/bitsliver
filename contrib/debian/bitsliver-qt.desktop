@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitSliver
+Comment=BitSliver P2P Cryptocurrency
+Comment[fr]=BitSliver, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitSliver, eşten eşe kriptografik sanal para birimi
+Exec=bitsliver-qt %u
+Terminal=false
+Type=Application
+Icon=bitsliver128
+MimeType=x-scheme-handler/bitsliver;
+Categories=Office;Finance;
